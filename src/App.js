@@ -8,8 +8,9 @@ function App() {
       image="https://react-coming-soon.maksv.me/default-image.jpeg"
       bgColor="#fff"
       textColor="#000"
-      illustration="development"
-      date="12/12/2020"
+      illustration="planning"
+      date="05/07/2020"
+      title="H3Corp - H3Soft - We coming soon"
     />
   );
 }
