@@ -1,25 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ComingSoon from 'react-coming-soon';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ComingSoon
+      image="https://react-coming-soon.maksv.me/default-image.jpeg"
+      bgColor="#fff"
+      textColor="#000"
+      illustration="development"
+      date="12/12/2020"
+    />
   );
 }
 
